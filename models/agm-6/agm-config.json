@@ -1,0 +1,28 @@
+{
+  "format": "agm-6-v1",
+  "name": "AGM 6",
+  "width": 2048,
+  "layers": 16,
+  "heads": 32,
+  "kv_heads": 8,
+  "head_dim": 64,
+  "context": 131072,
+  "norm_epsilon": 9.999999747378752e-06,
+  "stop_ids": [
+    128009
+  ],
+  "rotary": {
+    "base": 500000.0,
+    "scale": 32.0,
+    "original_context": 8192,
+    "low_frequency": 1.0,
+    "high_frequency": 4.0
+  },
+  "chat": {
+    "bos": "<|begin_of_text|>",
+    "header_open": "<|start_header_id|>",
+    "header_close": "<|end_header_id|>",
+    "turn_end": "<|eot_id|>",
+    "default_system": "You are AGM, an AI assistant developed by Adolfo GM. Be clear, friendly, and helpful."
+  }
+}
