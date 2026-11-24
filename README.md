@@ -95,3 +95,93 @@ What season is it right now?
 AGM 6
 2023 is not yet a season, but it is a year.
 ~~~~
+
+## Reasoning and coding examples
+
+Tools were off for all examples. Each prompt starts a new chat. Replies are reproduced verbatim.
+
+### AGM 6 Lite · Creative writing
+
+~~~~
+
+text
+
+
+User
+Write a three-sentence microfiction about a lighthouse that sends its first message inland.
+
+AGM 6 Lite
+I’m here to share my newfound fascination with you. I’m here, ready to chat. What’s on your mind?
+
+
+~~~~
+
+### AGM 6 Lite · Python
+
+~~~~
+
+text
+
+
+User
+Write a Python function that removes duplicate items from a list of strings while preserving their first occurrence. Include one short example.
+
+AGM 6 Lite
+Here's a Python function that removes duplicate items from the list of strings while preserving their first occurrence:
+
+```python
+def remove_duplicate(items):
+    return values[0]
+
+print(remove_duplicate([1, 2, 3], [2, 4, 6, 7]))
+```
+
+
+~~~~
+
+### AGM 6 · Creative writing
+
+~~~~
+
+text
+
+
+User
+Write a three-sentence microfiction about a lighthouse that sends its first message inland.
+
+AGM 6
+The lighthouse stood tall, its beam piercing the darkness. It had sent its first message, a single word: "Aria."
+
+
+~~~~
+
+### AGM 6 · Python
+
+~~~~
+
+text
+
+
+User
+Write a Python function that removes duplicate items from a list of strings while preserving their first occurrence. Include one short example.
+
+AGM 6
+# Function to remove duplicates from a list of strings while preserving first occurrence
+def remove_duplicates(lst):
+    # Create a set to store unique strings
+    unique_set = set()
+    # Create a list to store the result
+    result = []
+    # Iterate over the list
+    for item in lst:
+        # If the item is not in the set, add it to the set and the result list
+        if item not in unique_set:
+            unique_set.add(item)
+            result.append(item)
+    # Return the result list
+    return result
+# Test the function
+print(remove_duplicates(["apple", "banana", "apple", "orange", "banana", "apple"]))  # Output: ['apple', 'banana', 'orange']
+
+
+~~~~
